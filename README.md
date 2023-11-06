@@ -21,3 +21,5 @@ The "Griffin Blockchain" project was initially developed by Grossmont College in
 
 
 ![Blockchain_workflow](https://github.com/Rena-Tokhi/GriffinBlockchain/assets/73399769/c883af71-abc4-4ade-aaf3-a917a1a1f75f)
+
+![Blockchain](https://github.com/Rena-Tokhi/GriffinBlockchain/assets/73399769/0383ea35-ed1e-4bcd-abfc-7ead43fd14ce)
