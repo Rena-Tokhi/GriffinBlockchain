@@ -1,0 +1,772 @@
+{
+  "eMessageType": "BLOCK",
+  "oBlockchain": null,
+  "oBlock": {
+    "iIndex": 6,
+    "lTimeStamp": 1535940280089,
+    "sPreviousHash": "00000efc6052bd2c12371dbb4c920ac3aa901842f98302f9ab65c4956a564b4c",
+    "sMerkleRoot": "6a4ee32da7b21459a02593bdadc4a734d7af315d778f88a9cf9f2d00ca1669d3",
+    "iDifficulty": 5,
+    "fMinersRewardPercent": 0.25,
+    "sMinerPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==",
+    "sMinerUsername": "ox",
+    "sBlocksize": 1,
+    "fPriceIncreaseAfterTx": 0.25,
+    "fCoinsToNewMiner": 10.0,
+    "bOneInstancePerNode": false,
+    "sNonce": "305052333",
+    "sHash": "00000b0bcf0db0f77c06cd0302784a172772d8069eb15d075530b5ade2872d98",
+    "lstTransactions": [
+      {
+        "blockchainTitle": "T15",
+        "timestamp": 1535940276377,
+        "hash": "5919e189b79a9dcb8e0a9f8b7e8528f6d07799f41765c4f00c13fae13a965c5a",
+        "sendersPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==",
+        "recipientsPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==",
+        "amountToRecipient": 10.0,
+        "itemIdToSender": null,
+        "inputs": [
+          {
+            "transactionOutputId": "59c227cafa11ce1f02f74e6e617dfb74d2725322e33694bea404b54839844ffe",
+            "UTXO": {
+              "id": "59c227cafa11ce1f02f74e6e617dfb74d2725322e33694bea404b54839844ffe",
+              "recipientPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==",
+              "amount": 4.0,
+              "parentTransactionId": "49126289dce3da62c3a6b9a0249db323633e16be56f1f83dc5f3dd55b0df587a"
+            }
+          },
+          {
+            "transactionOutputId": "f8cee5a35a124b97c596d54b0a2e65f557d8866393259b640688b8381182a284",
+            "UTXO": {
+              "id": "f8cee5a35a124b97c596d54b0a2e65f557d8866393259b640688b8381182a284",
+              "recipientPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==",
+              "amount": 1.25,
+              "parentTransactionId": "59c8978193bfc162be98f73c21d9107a63a90afafec8081e6296a73b5b7a1fc6"
+            }
+          },
+          {
+            "transactionOutputId": "dfaddf8a09a80aa821e875063d16acee34a1cb177505ee85447f16cb748597e3",
+            "UTXO": {
+              "id": "dfaddf8a09a80aa821e875063d16acee34a1cb177505ee85447f16cb748597e3",
+              "recipientPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==",
+              "amount": 5.0,
+              "parentTransactionId": "907ae43956968d1d93279abec4ae22104cc6140b50fa595006d11309b39db4dc"
+            }
+          }
+        ],
+        "outputs": [
+          {
+            "id": "98ea76a412b0e0bfa20ed589a1cbddfa608c92390293db1aa2206930224c4fd2",
+            "recipientPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==",
+            "amount": 0.25,
+            "parentTransactionId": "5919e189b79a9dcb8e0a9f8b7e8528f6d07799f41765c4f00c13fae13a965c5a"
+          },
+          {
+            "id": "ab9b6a06f4c47ab476ccbab033ed35ded86cc1aca7d88aa81927677e664dadf3",
+            "recipientPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==",
+            "amount": 10.0,
+            "parentTransactionId": "5919e189b79a9dcb8e0a9f8b7e8528f6d07799f41765c4f00c13fae13a965c5a"
+          }
+        ],
+        "sendersSignature": "MEUCIB/4WKQsMkqYBTUZrH34qnKomvQ2gOqXjNrDd+hCtPQpAiEAhk5WZnf9cOj+iL0KN7g8y9wo9Ud4Uj0yccZeGuS/7rQ=",
+        "sentToNetworkCount": 2,
+        "sentToNetworkMinimum": 2
+      },
+      {
+        "blockchainTitle": "T15",
+        "timestamp": 1535940280090,
+        "hash": "f275d42155577c45fba811cb48d63d7273db454ac183b676690b82e5013cce83",
+        "sendersPublicKey": null,
+        "recipientsPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==",
+        "amountToRecipient": 2.5,
+        "itemIdToSender": null,
+        "inputs": null,
+        "outputs": [
+          {
+            "id": "19670449389bc35dc2f1df2f7368692567ef423db3d81fbb825d3a2ab0cc9578",
+            "recipientPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==",
+            "amount": 2.5,
+            "parentTransactionId": "f275d42155577c45fba811cb48d63d7273db454ac183b676690b82e5013cce83"
+          }
+        ],
+        "sendersSignature": "MEUCIQC+d9jOGm3s52SAlSB35+1QfnniOPrr7qynto+cWxu19gIgbBjb98yYixPpWN3Za4fYTgn/9XlRmWyOqvnmll+Jqsk=",
+        "sentToNetworkCount": 0,
+        "sentToNetworkMinimum": 2
+      }
+    ],
+    "sChangeSignature": null,
+    "mapVerifierPubKeyToSigOfHash": {},
+    "oPreviousBlock": {
+      "iIndex": 5,
+      "lTimeStamp": 1535828012692,
+      "sPreviousHash": "000000593c8904740e4efc07da7c76e1bc4c06a7b2ef7275b12ec006fc016fac",
+      "sMerkleRoot": "a8c30a70278b13439da5477d56e4a53c185961535410b14423abe9488c5b52ba",
+      "iDifficulty": 5,
+      "fMinersRewardPercent": 0.25,
+      "sMinerPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==",
+      "sMinerUsername": null,
+      "sBlocksize": 1,
+      "fPriceIncreaseAfterTx": 0.25,
+      "fCoinsToNewMiner": 10.0,
+      "bOneInstancePerNode": false,
+      "sNonce": "2106542127",
+      "sHash": "00000efc6052bd2c12371dbb4c920ac3aa901842f98302f9ab65c4956a564b4c",
+      "lstTransactions": [
+        {
+          "blockchainTitle": "T15",
+          "timestamp": 1535828010005,
+          "hash": "907ae43956968d1d93279abec4ae22104cc6140b50fa595006d11309b39db4dc",
+          "sendersPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==",
+          "recipientsPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==",
+          "amountToRecipient": 5.0,
+          "itemIdToSender": "2e2e1576-3631-4a31-8841-3a1534358cc1",
+          "inputs": [
+            {
+              "transactionOutputId": "9892becb4473a6c45e1ad574bb6d0a2103c0f7581bae93543a85c90054e3c37f",
+              "UTXO": {
+                "id": "9892becb4473a6c45e1ad574bb6d0a2103c0f7581bae93543a85c90054e3c37f",
+                "recipientPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==",
+                "amount": 4.5,
+                "parentTransactionId": "49126289dce3da62c3a6b9a0249db323633e16be56f1f83dc5f3dd55b0df587a"
+              }
+            },
+            {
+              "transactionOutputId": "ac841727ee40d033b49f3eb516de2346fbd90d6379d5721ad47d93b74e45db51",
+              "UTXO": {
+                "id": "ac841727ee40d033b49f3eb516de2346fbd90d6379d5721ad47d93b74e45db51",
+                "recipientPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==",
+                "amount": 0.75,
+                "parentTransactionId": "6cf9eb0913535ded41bffaaa9b6a7794db958fc0f7a449b33223507ebe445c06"
+              }
+            }
+          ],
+          "outputs": [
+            {
+              "id": "b4873d423a809f8fb441d3241be7f43d242dca3906c1aa6163aab72499fe1612",
+              "recipientPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==",
+              "amount": 0.25,
+              "parentTransactionId": "907ae43956968d1d93279abec4ae22104cc6140b50fa595006d11309b39db4dc"
+            },
+            {
+              "id": "dfaddf8a09a80aa821e875063d16acee34a1cb177505ee85447f16cb748597e3",
+              "recipientPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==",
+              "amount": 5.0,
+              "parentTransactionId": "907ae43956968d1d93279abec4ae22104cc6140b50fa595006d11309b39db4dc"
+            }
+          ],
+          "sendersSignature": "MEUCIF/QYPTxC8A2J3XebJrqy43WD6NM4wHlfII4HRF3cPRIAiEAkt8CpubIQdVwE9F8GpHCsaRLRDzc+L4Q/Q1KqC8jaVE=",
+          "sentToNetworkCount": 2,
+          "sentToNetworkMinimum": 2
+        },
+        {
+          "blockchainTitle": "T15",
+          "timestamp": 1535828012692,
+          "hash": "59c8978193bfc162be98f73c21d9107a63a90afafec8081e6296a73b5b7a1fc6",
+          "sendersPublicKey": null,
+          "recipientsPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==",
+          "amountToRecipient": 1.25,
+          "itemIdToSender": null,
+          "inputs": null,
+          "outputs": [
+            {
+              "id": "f8cee5a35a124b97c596d54b0a2e65f557d8866393259b640688b8381182a284",
+              "recipientPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==",
+              "amount": 1.25,
+              "parentTransactionId": "59c8978193bfc162be98f73c21d9107a63a90afafec8081e6296a73b5b7a1fc6"
+            }
+          ],
+          "sendersSignature": "MEYCIQD/+w5G5kcnDhvEzPgZmnQwUpfr1C4yA5y+yDv4tGqcLAIhAKI0fkkEE78R/JLHaEWxq//xAjvN408UR0DCJGl4wT5D",
+          "sentToNetworkCount": 0,
+          "sentToNetworkMinimum": 2
+        }
+      ],
+      "sChangeSignature": null,
+      "mapVerifierPubKeyToSigOfHash": {},
+      "oPreviousBlock": {
+        "iIndex": 4,
+        "lTimeStamp": 1535827667928,
+        "sPreviousHash": "00000b918b506f23c98f77e365ae70c59df8908c51db3a8f12f7ce74f17ad72e",
+        "sMerkleRoot": "14de759593cd634ee5db6512274e861460f637d09efb9a80fd65a8c1a0093bae",
+        "iDifficulty": 5,
+        "fMinersRewardPercent": 0.25,
+        "sMinerPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==",
+        "sMinerUsername": null,
+        "sBlocksize": 1,
+        "fPriceIncreaseAfterTx": 0.25,
+        "fCoinsToNewMiner": 10.0,
+        "bOneInstancePerNode": false,
+        "sNonce": "58881308",
+        "sHash": "000000593c8904740e4efc07da7c76e1bc4c06a7b2ef7275b12ec006fc016fac",
+        "lstTransactions": [
+          {
+            "blockchainTitle": "T15",
+            "timestamp": 1535827663096,
+            "hash": "49126289dce3da62c3a6b9a0249db323633e16be56f1f83dc5f3dd55b0df587a",
+            "sendersPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==",
+            "recipientsPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==",
+            "amountToRecipient": 4.0,
+            "itemIdToSender": null,
+            "inputs": [
+              {
+                "transactionOutputId": "cf6e0e22d9865e0ab548bc7937844664adaac906816a1999a41904f039cf725f",
+                "UTXO": {
+                  "id": "cf6e0e22d9865e0ab548bc7937844664adaac906816a1999a41904f039cf725f",
+                  "recipientPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==",
+                  "amount": 0.75,
+                  "parentTransactionId": "2f89ee92e75b32d7e9549d408f1a5d6195a9d850da6bc0ca6583c1983d741d4a"
+                }
+              },
+              {
+                "transactionOutputId": "085ced15ff957aae13dde519e6ac20af9480dec79f513e555b0dc82ffbe548ed",
+                "UTXO": {
+                  "id": "085ced15ff957aae13dde519e6ac20af9480dec79f513e555b0dc82ffbe548ed",
+                  "recipientPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==",
+                  "amount": 7.75,
+                  "parentTransactionId": "ff121aa331cba6ee2136ce744750ca9edb3086839578ec4c546a428707613bba"
+                }
+              }
+            ],
+            "outputs": [
+              {
+                "id": "9892becb4473a6c45e1ad574bb6d0a2103c0f7581bae93543a85c90054e3c37f",
+                "recipientPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==",
+                "amount": 4.5,
+                "parentTransactionId": "49126289dce3da62c3a6b9a0249db323633e16be56f1f83dc5f3dd55b0df587a"
+              },
+              {
+                "id": "59c227cafa11ce1f02f74e6e617dfb74d2725322e33694bea404b54839844ffe",
+                "recipientPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==",
+                "amount": 4.0,
+                "parentTransactionId": "49126289dce3da62c3a6b9a0249db323633e16be56f1f83dc5f3dd55b0df587a"
+              }
+            ],
+            "sendersSignature": "MEQCIH8pYMwtUteZuGbki3MQYnflWeEZbNqw51Upef/5R6QbAiBz1nSejVN0J9DrvW64DtU92IVqXV3/kZxn4mfKgGxN6A==",
+            "sentToNetworkCount": 2,
+            "sentToNetworkMinimum": 2
+          },
+          {
+            "blockchainTitle": "T15",
+            "timestamp": 1535827667928,
+            "hash": "679a50295d4577e3810b4354ffbddd591aa6ebcac142b20d25bb4cf85ef63b80",
+            "sendersPublicKey": null,
+            "recipientsPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==",
+            "amountToRecipient": 1.0,
+            "itemIdToSender": null,
+            "inputs": null,
+            "outputs": [
+              {
+                "id": "070107201eaf9510f530d7565537c7bc54ddd9febbff21c558c4a169aae09c56",
+                "recipientPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==",
+                "amount": 1.0,
+                "parentTransactionId": "679a50295d4577e3810b4354ffbddd591aa6ebcac142b20d25bb4cf85ef63b80"
+              }
+            ],
+            "sendersSignature": "MEYCIQD2/J84dj53I1q7SyKfLmm33A4Xmo7ksNdwfQeAJ5D//wIhAIBDn4rpj7AO+QFwRPC+WFa1hBMJkAhBXc6cd71ouDNl",
+            "sentToNetworkCount": 0,
+            "sentToNetworkMinimum": 2
+          }
+        ],
+        "sChangeSignature": null,
+        "mapVerifierPubKeyToSigOfHash": {},
+        "oPreviousBlock": {
+          "iIndex": 3,
+          "lTimeStamp": 1535827487470,
+          "sPreviousHash": "0000064f7cad48a53c470a583cf14592112765c42cb6459f1c3093f9c681a62c",
+          "sMerkleRoot": "f7d7ef0396f8e5ce001ecd9857ec31959614a24cb8e16c4ac016e39896ec0bc1",
+          "iDifficulty": 5,
+          "fMinersRewardPercent": 0.25,
+          "sMinerPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==",
+          "sMinerUsername": "ox",
+          "sBlocksize": 1,
+          "fPriceIncreaseAfterTx": 0.25,
+          "fCoinsToNewMiner": 10.0,
+          "bOneInstancePerNode": false,
+          "sNonce": "826575226",
+          "sHash": "00000b918b506f23c98f77e365ae70c59df8908c51db3a8f12f7ce74f17ad72e",
+          "lstTransactions": [
+            {
+              "blockchainTitle": "T15",
+              "timestamp": 1535827486921,
+              "hash": "ff121aa331cba6ee2136ce744750ca9edb3086839578ec4c546a428707613bba",
+              "sendersPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==",
+              "recipientsPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==",
+              "amountToRecipient": 3.0,
+              "itemIdToSender": null,
+              "inputs": [
+                {
+                  "transactionOutputId": "310886c7795dde32784b93776a9e4eeaca714032a7064287e84cf3b637a2750f",
+                  "UTXO": {
+                    "id": "310886c7795dde32784b93776a9e4eeaca714032a7064287e84cf3b637a2750f",
+                    "recipientPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==",
+                    "amount": 2.75,
+                    "parentTransactionId": "052842a709be0214917038dfac0b94daaba36e202768b30d09ce0a2a1b0396f2"
+                  }
+                },
+                {
+                  "transactionOutputId": "21812f47f7c8c822a4e5acd9b532bf095329724c213708bd8ae113ed876a26a8",
+                  "UTXO": {
+                    "id": "21812f47f7c8c822a4e5acd9b532bf095329724c213708bd8ae113ed876a26a8",
+                    "recipientPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==",
+                    "amount": 8.0,
+                    "parentTransactionId": "be806c663394af592dbcd9bfa08854b6c29ad4e0b183c6de24b3b1ef1529ee54"
+                  }
+                }
+              ],
+              "outputs": [
+                {
+                  "id": "085ced15ff957aae13dde519e6ac20af9480dec79f513e555b0dc82ffbe548ed",
+                  "recipientPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==",
+                  "amount": 7.75,
+                  "parentTransactionId": "ff121aa331cba6ee2136ce744750ca9edb3086839578ec4c546a428707613bba"
+                },
+                {
+                  "id": "742b8ab1d0f855dd794959ad68f189e2031427fd5709f46587bbe4b46257c26f",
+                  "recipientPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==",
+                  "amount": 3.0,
+                  "parentTransactionId": "ff121aa331cba6ee2136ce744750ca9edb3086839578ec4c546a428707613bba"
+                }
+              ],
+              "sendersSignature": "MEUCIQD0Kfbh+B5xcGc04wwM26K3wEI3Gnfqs4lYzpPev8IiKwIgaCBKkRBkgm8oKt8m1A6aX9jdi90HRKvoUbxVSJSgv6s=",
+              "sentToNetworkCount": 1,
+              "sentToNetworkMinimum": 2
+            },
+            {
+              "blockchainTitle": "T15",
+              "timestamp": 1535827487471,
+              "hash": "2f89ee92e75b32d7e9549d408f1a5d6195a9d850da6bc0ca6583c1983d741d4a",
+              "sendersPublicKey": null,
+              "recipientsPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==",
+              "amountToRecipient": 0.75,
+              "itemIdToSender": null,
+              "inputs": null,
+              "outputs": [
+                {
+                  "id": "cf6e0e22d9865e0ab548bc7937844664adaac906816a1999a41904f039cf725f",
+                  "recipientPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==",
+                  "amount": 0.75,
+                  "parentTransactionId": "2f89ee92e75b32d7e9549d408f1a5d6195a9d850da6bc0ca6583c1983d741d4a"
+                }
+              ],
+              "sendersSignature": "MEUCIAFoiy1jvTssLydC5WWxL2saOwi20joFfXMVMckXT4WDAiEAtwHH+7T6vFis49pxSexqQj2cKJ9mOeLJ10LdI3LykV8=",
+              "sentToNetworkCount": 0,
+              "sentToNetworkMinimum": 2
+            }
+          ],
+          "sChangeSignature": null,
+          "mapVerifierPubKeyToSigOfHash": {},
+          "oPreviousBlock": {
+            "iIndex": 2,
+            "lTimeStamp": 1535826759781,
+            "sPreviousHash": "00000a25885631a989d0324644ca2c0baac977a7b94facece770d8284771027d",
+            "sMerkleRoot": "e67f15f1b19dd292fa26abebd2ef56f008819a8a0fd2e0c62c06364d6cb492be",
+            "iDifficulty": 5,
+            "fMinersRewardPercent": 0.25,
+            "sMinerPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==",
+            "sMinerUsername": "ox",
+            "sBlocksize": 1,
+            "fPriceIncreaseAfterTx": 0.25,
+            "fCoinsToNewMiner": 10.0,
+            "bOneInstancePerNode": false,
+            "sNonce": "1773282454",
+            "sHash": "0000064f7cad48a53c470a583cf14592112765c42cb6459f1c3093f9c681a62c",
+            "lstTransactions": [
+              {
+                "blockchainTitle": "T15",
+                "timestamp": 1535826759043,
+                "hash": "be806c663394af592dbcd9bfa08854b6c29ad4e0b183c6de24b3b1ef1529ee54",
+                "sendersPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==",
+                "recipientsPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==",
+                "amountToRecipient": 3.0,
+                "itemIdToSender": null,
+                "inputs": [
+                  {
+                    "transactionOutputId": "3b0ece594508f9b17d5202d1de6be0c6f6aad4253a1c221236813737de04efcc",
+                    "UTXO": {
+                      "id": "3b0ece594508f9b17d5202d1de6be0c6f6aad4253a1c221236813737de04efcc",
+                      "recipientPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==",
+                      "amount": 11.0,
+                      "parentTransactionId": "5601caa95f787d90c550289b221619964e6878bbde44da6dce618c5ce54a832d"
+                    }
+                  }
+                ],
+                "outputs": [
+                  {
+                    "id": "21812f47f7c8c822a4e5acd9b532bf095329724c213708bd8ae113ed876a26a8",
+                    "recipientPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==",
+                    "amount": 8.0,
+                    "parentTransactionId": "be806c663394af592dbcd9bfa08854b6c29ad4e0b183c6de24b3b1ef1529ee54"
+                  },
+                  {
+                    "id": "5157a4ecf1d28c5fa99e684e29cf77989ab548e463ab62bf5a27c1af33c25d5c",
+                    "recipientPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==",
+                    "amount": 3.0,
+                    "parentTransactionId": "be806c663394af592dbcd9bfa08854b6c29ad4e0b183c6de24b3b1ef1529ee54"
+                  }
+                ],
+                "sendersSignature": "MEQCIGJGtNAWoCexgeM5jtd05TFFsQgdhv27rsFYQBSOxsN8AiB0iCEsBjjJEqRwsMURAKcHRvcSHLFBkMOShdRSL5O0dw==",
+                "sentToNetworkCount": 1,
+                "sentToNetworkMinimum": 2
+              },
+              {
+                "blockchainTitle": "T15",
+                "timestamp": 1535826759781,
+                "hash": "6cf9eb0913535ded41bffaaa9b6a7794db958fc0f7a449b33223507ebe445c06",
+                "sendersPublicKey": null,
+                "recipientsPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==",
+                "amountToRecipient": 0.75,
+                "itemIdToSender": null,
+                "inputs": null,
+                "outputs": [
+                  {
+                    "id": "ac841727ee40d033b49f3eb516de2346fbd90d6379d5721ad47d93b74e45db51",
+                    "recipientPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==",
+                    "amount": 0.75,
+                    "parentTransactionId": "6cf9eb0913535ded41bffaaa9b6a7794db958fc0f7a449b33223507ebe445c06"
+                  }
+                ],
+                "sendersSignature": "MEQCICoYlyh8Cqu0HA+V2OsF/8KuGGhDZSXuqjdLMgN8UmvQAiAe97exotPH3D12aU++0AD78PNZn0ZYtk6I4DNRwsPjxA==",
+                "sentToNetworkCount": 0,
+                "sentToNetworkMinimum": 2
+              }
+            ],
+            "sChangeSignature": null,
+            "mapVerifierPubKeyToSigOfHash": {},
+            "oPreviousBlock": {
+              "iIndex": 1,
+              "lTimeStamp": 1535825668137,
+              "sPreviousHash": "c9759261b63ac67abdea8ce02ba647055322bad8ec0d21f07bb78dba39e0fbd5",
+              "sMerkleRoot": "933eab3fc901473cbc7bfe35c45c9d14a6acd7fb06e1f294081efd8f29e61820",
+              "iDifficulty": 5,
+              "fMinersRewardPercent": 0.25,
+              "sMinerPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==",
+              "sMinerUsername": "ox",
+              "sBlocksize": 1,
+              "fPriceIncreaseAfterTx": 0.25,
+              "fCoinsToNewMiner": 10.0,
+              "bOneInstancePerNode": false,
+              "sNonce": "1357091893",
+              "sHash": "00000a25885631a989d0324644ca2c0baac977a7b94facece770d8284771027d",
+              "lstTransactions": [
+                {
+                  "blockchainTitle": "T15",
+                  "timestamp": 1535825665122,
+                  "hash": "5601caa95f787d90c550289b221619964e6878bbde44da6dce618c5ce54a832d",
+                  "sendersPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==",
+                  "recipientsPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==",
+                  "amountToRecipient": 11.0,
+                  "itemIdToSender": null,
+                  "inputs": [
+                    {
+                      "transactionOutputId": "c5bd88793c1bf352bdbe6559f4327b3d13680395c6a63564f28abdb65483da89",
+                      "UTXO": {
+                        "id": "c5bd88793c1bf352bdbe6559f4327b3d13680395c6a63564f28abdb65483da89",
+                        "recipientPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==",
+                        "amount": 30.0,
+                        "parentTransactionId": "99e99b31e35cb1add09c2693e29dedcaa8ffc232ac59a439fc506dacb4f22b13"
+                      }
+                    }
+                  ],
+                  "outputs": [
+                    {
+                      "id": "0364a1df72430211eefe8361ef95617b68181944a680e11ed20a13b00e93321e",
+                      "recipientPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==",
+                      "amount": 19.0,
+                      "parentTransactionId": "5601caa95f787d90c550289b221619964e6878bbde44da6dce618c5ce54a832d"
+                    },
+                    {
+                      "id": "3b0ece594508f9b17d5202d1de6be0c6f6aad4253a1c221236813737de04efcc",
+                      "recipientPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==",
+                      "amount": 11.0,
+                      "parentTransactionId": "5601caa95f787d90c550289b221619964e6878bbde44da6dce618c5ce54a832d"
+                    }
+                  ],
+                  "sendersSignature": "MEUCIEFO6n4bvP0/0KlF2usYk799D6EfbXz38azWRjxl9bwHAiEApwkTI/qqB1Gegfq/VJbAmF+s8geEe7P0huHegQUNiXc=",
+                  "sentToNetworkCount": 2,
+                  "sentToNetworkMinimum": 2
+                },
+                {
+                  "blockchainTitle": "T15",
+                  "timestamp": 1535825668137,
+                  "hash": "052842a709be0214917038dfac0b94daaba36e202768b30d09ce0a2a1b0396f2",
+                  "sendersPublicKey": null,
+                  "recipientsPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==",
+                  "amountToRecipient": 2.75,
+                  "itemIdToSender": null,
+                  "inputs": null,
+                  "outputs": [
+                    {
+                      "id": "310886c7795dde32784b93776a9e4eeaca714032a7064287e84cf3b637a2750f",
+                      "recipientPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==",
+                      "amount": 2.75,
+                      "parentTransactionId": "052842a709be0214917038dfac0b94daaba36e202768b30d09ce0a2a1b0396f2"
+                    }
+                  ],
+                  "sendersSignature": "MEQCIHHqH7GQIIbLwWKN7NoQbF/cOPzC9vaAlheoJujnvLtPAiAn9EMBJGAp+EsQTDbAF9yuFvq+S9rEUowMYaVz1vGGgg==",
+                  "sentToNetworkCount": 0,
+                  "sentToNetworkMinimum": 2
+                }
+              ],
+              "sChangeSignature": null,
+              "mapVerifierPubKeyToSigOfHash": {},
+              "oPreviousBlock": {
+                "iIndex": 0,
+                "lTimeStamp": 1535825467707,
+                "sPreviousHash": "root",
+                "sMerkleRoot": "99e99b31e35cb1add09c2693e29dedcaa8ffc232ac59a439fc506dacb4f22b13",
+                "iDifficulty": 5,
+                "fMinersRewardPercent": 0.25,
+                "sMinerPublicKey": null,
+                "sMinerUsername": null,
+                "sBlocksize": 1,
+                "fPriceIncreaseAfterTx": 0.25,
+                "fCoinsToNewMiner": 10.0,
+                "bOneInstancePerNode": false,
+                "sNonce": "12345",
+                "sHash": "c9759261b63ac67abdea8ce02ba647055322bad8ec0d21f07bb78dba39e0fbd5",
+                "lstTransactions": [
+                  {
+                    "blockchainTitle": "T15",
+                    "timestamp": 1535825467709,
+                    "hash": "99e99b31e35cb1add09c2693e29dedcaa8ffc232ac59a439fc506dacb4f22b13",
+                    "sendersPublicKey": null,
+                    "recipientsPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==",
+                    "amountToRecipient": 30.0,
+                    "itemIdToSender": "2e2e1576-3631-4a31-8841-3a1534358cc1",
+                    "inputs": null,
+                    "outputs": [
+                      {
+                        "id": "c5bd88793c1bf352bdbe6559f4327b3d13680395c6a63564f28abdb65483da89",
+                        "recipientPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==",
+                        "amount": 30.0,
+                        "parentTransactionId": "99e99b31e35cb1add09c2693e29dedcaa8ffc232ac59a439fc506dacb4f22b13"
+                      }
+                    ],
+                    "sendersSignature": "MEQCIG805K5J/R70EWOvHSi6RAk3kA35/i7ojtnHm4rBpyMfAiB/4cRKRPIbHighG3NdCtotakdAFfRG+Fr6YG4clPa2Cg==",
+                    "sentToNetworkCount": 0,
+                    "sentToNetworkMinimum": 2
+                  }
+                ],
+                "sChangeSignature": null,
+                "mapVerifierPubKeyToSigOfHash": {},
+                "oPreviousBlock": null,
+                "iSentToNetworkCount": 0,
+                "iSentToNetworkMinimum": 2
+              },
+              "iSentToNetworkCount": 2,
+              "iSentToNetworkMinimum": 2
+            },
+            "iSentToNetworkCount": 2,
+            "iSentToNetworkMinimum": 2
+          },
+          "iSentToNetworkCount": 2,
+          "iSentToNetworkMinimum": 2
+        },
+        "iSentToNetworkCount": 2,
+        "iSentToNetworkMinimum": 2
+      },
+      "iSentToNetworkCount": 2,
+      "iSentToNetworkMinimum": 2
+    },
+    "iSentToNetworkCount": 2,
+    "iSentToNetworkMinimum": 2
+  },
+  "oTransaction": null,
+  "sMessage": null
+}
+
+{
+  "eMessageType": "BLOCK",
+  "oBlockchain": null,
+  "oBlock": {
+    "iIndex": 8,
+    "lTimeStamp": 1535955496273,
+    "sPreviousHash": "00000463b4fdee3f5f192dba3899a3bff476fa9ed9a83f851a12381304bcde5e",
+    "sMerkleRoot": "6f1ab7e3b567aa46efb16a6483add8bac487dfa7e215e46611e07c8361855d1c",
+    "iDifficulty": 5,
+    "fMinersRewardPercent": 0.25,
+    "sMinerPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==",
+    "sMinerUsername": null,
+    "sBlocksize": 1,
+    "fPriceIncreaseAfterTx": 0.25,
+    "fCoinsToNewMiner": 10.0,
+    "bOneInstancePerNode": false,
+    "sNonce": "762957442",
+    "sHash": "00000f889477b40cff47effb5ebd1ef9ac455f9e051054c4707decba65f500cf",
+    "lstTransactions": [
+      {
+        "blockchainTitle": "T15",
+        "timestamp": 1535955403083,
+        "hash": "73050890b58374b6ff0cdfc09285de71363e197a6561e3692b8dfcb4e06c54ae",
+        "sendersPublicKey": null,
+        "recipientsPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==",
+        "amountToRecipient": 1.5625,
+        "itemIdToSender": null,
+        "inputs": null,
+        "outputs": [
+          {
+            "id": "5dfbcdf4cc8426ea7201a2c0af77ca0ac8dcfa8968e3e9e39aeab39f3c0955c5",
+            "recipientPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==",
+            "amount": 1.5625,
+            "parentTransactionId": "73050890b58374b6ff0cdfc09285de71363e197a6561e3692b8dfcb4e06c54ae"
+          }
+        ],
+        "sendersSignature": "MEYCIQDOLAbGYpFsZOv7Kthv/mPqzQgOYN1x6NKOOFP8UT9pVwIhALnGJ19kCB9WwwX4gm4hE77VUObTGfe782JXbGSyukbI",
+        "sentToNetworkCount": 0,
+        "sentToNetworkMinimum": 2
+      },
+      {
+        "blockchainTitle": "T15",
+        "timestamp": 1535955496273,
+        "hash": "75079a2e3675f2416760ca18d14fd1b50ac73b69e6dfe0cbaa09824f03bacff6",
+        "sendersPublicKey": null,
+        "recipientsPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==",
+        "amountToRecipient": 0.0,
+        "itemIdToSender": null,
+        "inputs": null,
+        "outputs": [
+          {
+            "id": "16176b5f751235cf2260f2fa0b39f4c6f7337bdacc3a0e8424e8ebf7686adcb5",
+            "recipientPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==",
+            "amount": 0.0,
+            "parentTransactionId": "75079a2e3675f2416760ca18d14fd1b50ac73b69e6dfe0cbaa09824f03bacff6"
+          }
+        ],
+        "sendersSignature": "MEUCICpKiuoDxSCRB1oBH1yZXi0KaYaxKNby7HqH0+Mpkr0bAiEAp2oBQLrbRXZ96QUxqF283xk7nHv5J+ulS5ZWVl/7FJY=",
+        "sentToNetworkCount": 0,
+        "sentToNetworkMinimum": 2
+      }
+    ],
+    "sChangeSignature": null,
+    "mapVerifierPubKeyToSigOfHash": {},
+    "oPreviousBlock": null,
+    "iSentToNetworkCount": 1,
+    "iSentToNetworkMinimum": 2
+  },
+  "oTransaction": null,
+  "sMessage": null
+}
+
+
+{
+  "eMessageType": "TRANSACTION",
+  "oBlockchain": null,
+  "oBlock": null,
+  "oTransaction": {
+    "blockchainTitle": "T15",
+    "timestamp": 1535955397162,
+    "hash": "da20e7417aada2c1981bd7e3dc66fe189a57245e33de4b623f316803b7958282",
+    "sendersPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==",
+    "recipientsPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==",
+    "amountToRecipient": 6.25,
+    "itemIdToSender": "2e2e1576-3631-4a31-8841-3a1534358cc1",
+    "inputs": [
+      {
+        "transactionOutputId": "b4873d423a809f8fb441d3241be7f43d242dca3906c1aa6163aab72499fe1612",
+        "UTXO": {
+          "id": "b4873d423a809f8fb441d3241be7f43d242dca3906c1aa6163aab72499fe1612",
+          "recipientPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==",
+          "amount": 0.25,
+          "parentTransactionId": "907ae43956968d1d93279abec4ae22104cc6140b50fa595006d11309b39db4dc"
+        }
+      },
+      {
+        "transactionOutputId": "19670449389bc35dc2f1df2f7368692567ef423db3d81fbb825d3a2ab0cc9578",
+        "UTXO": {
+          "id": "19670449389bc35dc2f1df2f7368692567ef423db3d81fbb825d3a2ab0cc9578",
+          "recipientPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==",
+          "amount": 2.5,
+          "parentTransactionId": "f275d42155577c45fba811cb48d63d7273db454ac183b676690b82e5013cce83"
+        }
+      },
+      {
+        "transactionOutputId": "ab9b6a06f4c47ab476ccbab033ed35ded86cc1aca7d88aa81927677e664dadf3",
+        "UTXO": {
+          "id": "ab9b6a06f4c47ab476ccbab033ed35ded86cc1aca7d88aa81927677e664dadf3",
+          "recipientPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==",
+          "amount": 10.0,
+          "parentTransactionId": "5919e189b79a9dcb8e0a9f8b7e8528f6d07799f41765c4f00c13fae13a965c5a"
+        }
+      }
+    ],
+    "outputs": [
+      {
+        "id": "089d165fdb998ce042b97164cbdc29ca5d1e5624059810d9c63d39eae7332ae7",
+        "recipientPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==",
+        "amount": 6.5,
+        "parentTransactionId": "da20e7417aada2c1981bd7e3dc66fe189a57245e33de4b623f316803b7958282"
+      },
+      {
+        "id": "e0b54844a948af1dba9e184d668290e164f4adafe13fbb6c9dc7dacf7e6a7907",
+        "recipientPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==",
+        "amount": 6.25,
+        "parentTransactionId": "da20e7417aada2c1981bd7e3dc66fe189a57245e33de4b623f316803b7958282"
+      }
+    ],
+    "sendersSignature": "MEUCIHVVLOUq4tGIVMAENGQmu39uxzS+ORgSZ9S4Tc9EzaN2AiEAj1jTYHBfD6vLJHS94csy0CsWfz2HTAS3bxUGtDSUiCA=",
+    "sentToNetworkCount": 1,
+    "sentToNetworkMinimum": 2
+  },
+  "sMessage": null
+}
+
+{
+  "eMessageType": "TRANSACTION",
+  "oBlockchain": null,
+  "oBlock": null,
+  "oTransaction": {
+    "blockchainTitle": "T15",
+    "timestamp": 1535957975170,
+    "hash": "5c9088d863e62e162be64829fcde3a3fdda5c0c6e9fd4a2cbb03297d60333eb5",
+    "sendersPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==",
+    "recipientsPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==",
+    "amountToRecipient": 7.8125,
+    "itemIdToSender": "2e2e1576-3631-4a31-8841-3a1534358cc1",
+    "inputs": [
+      {
+        "transactionOutputId": "089d165fdb998ce042b97164cbdc29ca5d1e5624059810d9c63d39eae7332ae7",
+        "UTXO": {
+          "id": "089d165fdb998ce042b97164cbdc29ca5d1e5624059810d9c63d39eae7332ae7",
+          "recipientPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==",
+          "amount": 6.5,
+          "parentTransactionId": "da20e7417aada2c1981bd7e3dc66fe189a57245e33de4b623f316803b7958282"
+        }
+      },
+      {
+        "transactionOutputId": "576f7c0688540fbebaf3216b0c95569b1c2645c5e385a99e7bbc6970f4d5f7b2",
+        "UTXO": {
+          "id": "576f7c0688540fbebaf3216b0c95569b1c2645c5e385a99e7bbc6970f4d5f7b2",
+          "recipientPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==",
+          "amount": 1.5625,
+          "parentTransactionId": "ff6f4722512ecad152b052dba54ac1e79bdd0e0c9379b669d85737e59b308287"
+        }
+      }
+    ],
+    "outputs": [
+      {
+        "id": "ed53bb3e9a799646b4600a03bdd513ae989e8161ab98895fb64becffaf5191e0",
+        "recipientPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==",
+        "amount": 0.25,
+        "parentTransactionId": "5c9088d863e62e162be64829fcde3a3fdda5c0c6e9fd4a2cbb03297d60333eb5"
+      },
+      {
+        "id": "77b871e8252dd227b29bf7c160ddac39f13f845c451b2ede8d08a6c4c9d35e17",
+        "recipientPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==",
+        "amount": 7.8125,
+        "parentTransactionId": "5c9088d863e62e162be64829fcde3a3fdda5c0c6e9fd4a2cbb03297d60333eb5"
+      }
+    ],
+    "sendersSignature": "MEUCIQCSjlki5JlB1i6lHTTPJyLePieo92IjI/3l3AHA1Qg5UwIgRQASYNGV/uignhDdWrq2RVDTEo2M95VF95NFPdY5/WU=",
+    "sentToNetworkCount": 2,
+    "sentToNetworkMinimum": 2
+  },
+  "sMessage": null
+}
+
+
+{
+  "eMessageType": "BLOCKCHAIN",
+  "oBlockchain": null,
+  "oBlock": null,
+  "oTransaction": null,
+  "sMessage": "{\"sTitle\":\"T15\",\"sOzPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==\",\"sOzUsername\":\"oz\",\"oHeadBlock\":{\"iIndex\":7,\"lTimeStamp\":1535955397901,\"sPreviousHash\":\"00000b0bcf0db0f77c06cd0302784a172772d8069eb15d075530b5ade2872d98\",\"sMerkleRoot\":\"d34f7862e923b0b9000a961f709593eeb3efc3158a4ed061012dc502d4d4082f\",\"iDifficulty\":5,\"fMinersRewardPercent\":0.25,\"sMinerPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==\",\"sMinerUsername\":\"ox\",\"sBlocksize\":1,\"fPriceIncreaseAfterTx\":0.25,\"fCoinsToNewMiner\":10.0,\"bOneInstancePerNode\":false,\"sNonce\":\"125245451\",\"sHash\":\"00000463b4fdee3f5f192dba3899a3bff476fa9ed9a83f851a12381304bcde5e\",\"lstTransactions\":[{\"blockchainTitle\":\"T15\",\"timestamp\":1535955397162,\"hash\":\"da20e7417aada2c1981bd7e3dc66fe189a57245e33de4b623f316803b7958282\",\"sendersPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==\",\"recipientsPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==\",\"amountToRecipient\":6.25,\"itemIdToSender\":\"2e2e1576-3631-4a31-8841-3a1534358cc1\",\"inputs\":[{\"transactionOutputId\":\"b4873d423a809f8fb441d3241be7f43d242dca3906c1aa6163aab72499fe1612\",\"UTXO\":{\"id\":\"b4873d423a809f8fb441d3241be7f43d242dca3906c1aa6163aab72499fe1612\",\"recipientPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==\",\"amount\":0.25,\"parentTransactionId\":\"907ae43956968d1d93279abec4ae22104cc6140b50fa595006d11309b39db4dc\"}},{\"transactionOutputId\":\"19670449389bc35dc2f1df2f7368692567ef423db3d81fbb825d3a2ab0cc9578\",\"UTXO\":{\"id\":\"19670449389bc35dc2f1df2f7368692567ef423db3d81fbb825d3a2ab0cc9578\",\"recipientPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==\",\"amount\":2.5,\"parentTransactionId\":\"f275d42155577c45fba811cb48d63d7273db454ac183b676690b82e5013cce83\"}},{\"transactionOutputId\":\"ab9b6a06f4c47ab476ccbab033ed35ded86cc1aca7d88aa81927677e664dadf3\",\"UTXO\":{\"id\":\"ab9b6a06f4c47ab476ccbab033ed35ded86cc1aca7d88aa81927677e664dadf3\",\"recipientPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==\",\"amount\":10.0,\"parentTransactionId\":\"5919e189b79a9dcb8e0a9f8b7e8528f6d07799f41765c4f00c13fae13a965c5a\"}}],\"outputs\":[{\"id\":\"089d165fdb998ce042b97164cbdc29ca5d1e5624059810d9c63d39eae7332ae7\",\"recipientPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==\",\"amount\":6.5,\"parentTransactionId\":\"da20e7417aada2c1981bd7e3dc66fe189a57245e33de4b623f316803b7958282\"},{\"id\":\"e0b54844a948af1dba9e184d668290e164f4adafe13fbb6c9dc7dacf7e6a7907\",\"recipientPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==\",\"amount\":6.25,\"parentTransactionId\":\"da20e7417aada2c1981bd7e3dc66fe189a57245e33de4b623f316803b7958282\"}],\"sendersSignature\":\"MEUCIHVVLOUq4tGIVMAENGQmu39uxzS+ORgSZ9S4Tc9EzaN2AiEAj1jTYHBfD6vLJHS94csy0CsWfz2HTAS3bxUGtDSUiCA=\",\"sentToNetworkCount\":1,\"sentToNetworkMinimum\":2},{\"blockchainTitle\":\"T15\",\"timestamp\":1535955397901,\"hash\":\"ff6f4722512ecad152b052dba54ac1e79bdd0e0c9379b669d85737e59b308287\",\"sendersPublicKey\":null,\"recipientsPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==\",\"amountToRecipient\":1.5625,\"itemIdToSender\":null,\"inputs\":null,\"outputs\":[{\"id\":\"576f7c0688540fbebaf3216b0c95569b1c2645c5e385a99e7bbc6970f4d5f7b2\",\"recipientPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==\",\"amount\":1.5625,\"parentTransactionId\":\"ff6f4722512ecad152b052dba54ac1e79bdd0e0c9379b669d85737e59b308287\"}],\"sendersSignature\":\"MEUCIQCfNe64IKrYpaiDKDGdn3MsHOt88FeOv16vDH8s4jVKNAIgX7hwMKt7vo4TxQnv5diY9jdeRvTRST90veOZsN2+Y6c=\",\"sentToNetworkCount\":0,\"sentToNetworkMinimum\":2}],\"sChangeSignature\":null,\"mapVerifierPubKeyToSigOfHash\":{},\"oPreviousBlock\":{\"iIndex\":6,\"lTimeStamp\":1535940280089,\"sPreviousHash\":\"00000efc6052bd2c12371dbb4c920ac3aa901842f98302f9ab65c4956a564b4c\",\"sMerkleRoot\":\"6a4ee32da7b21459a02593bdadc4a734d7af315d778f88a9cf9f2d00ca1669d3\",\"iDifficulty\":5,\"fMinersRewardPercent\":0.25,\"sMinerPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==\",\"sMinerUsername\":\"ox\",\"sBlocksize\":1,\"fPriceIncreaseAfterTx\":0.25,\"fCoinsToNewMiner\":10.0,\"bOneInstancePerNode\":false,\"sNonce\":\"305052333\",\"sHash\":\"00000b0bcf0db0f77c06cd0302784a172772d8069eb15d075530b5ade2872d98\",\"lstTransactions\":[{\"blockchainTitle\":\"T15\",\"timestamp\":1535940276377,\"hash\":\"5919e189b79a9dcb8e0a9f8b7e8528f6d07799f41765c4f00c13fae13a965c5a\",\"sendersPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==\",\"recipientsPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==\",\"amountToRecipient\":10.0,\"itemIdToSender\":null,\"inputs\":[{\"transactionOutputId\":\"59c227cafa11ce1f02f74e6e617dfb74d2725322e33694bea404b54839844ffe\",\"UTXO\":{\"id\":\"59c227cafa11ce1f02f74e6e617dfb74d2725322e33694bea404b54839844ffe\",\"recipientPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==\",\"amount\":4.0,\"parentTransactionId\":\"49126289dce3da62c3a6b9a0249db323633e16be56f1f83dc5f3dd55b0df587a\"}},{\"transactionOutputId\":\"f8cee5a35a124b97c596d54b0a2e65f557d8866393259b640688b8381182a284\",\"UTXO\":{\"id\":\"f8cee5a35a124b97c596d54b0a2e65f557d8866393259b640688b8381182a284\",\"recipientPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==\",\"amount\":1.25,\"parentTransactionId\":\"59c8978193bfc162be98f73c21d9107a63a90afafec8081e6296a73b5b7a1fc6\"}},{\"transactionOutputId\":\"dfaddf8a09a80aa821e875063d16acee34a1cb177505ee85447f16cb748597e3\",\"UTXO\":{\"id\":\"dfaddf8a09a80aa821e875063d16acee34a1cb177505ee85447f16cb748597e3\",\"recipientPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==\",\"amount\":5.0,\"parentTransactionId\":\"907ae43956968d1d93279abec4ae22104cc6140b50fa595006d11309b39db4dc\"}}],\"outputs\":[{\"id\":\"98ea76a412b0e0bfa20ed589a1cbddfa608c92390293db1aa2206930224c4fd2\",\"recipientPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==\",\"amount\":0.25,\"parentTransactionId\":\"5919e189b79a9dcb8e0a9f8b7e8528f6d07799f41765c4f00c13fae13a965c5a\"},{\"id\":\"ab9b6a06f4c47ab476ccbab033ed35ded86cc1aca7d88aa81927677e664dadf3\",\"recipientPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==\",\"amount\":10.0,\"parentTransactionId\":\"5919e189b79a9dcb8e0a9f8b7e8528f6d07799f41765c4f00c13fae13a965c5a\"}],\"sendersSignature\":\"MEUCIB/4WKQsMkqYBTUZrH34qnKomvQ2gOqXjNrDd+hCtPQpAiEAhk5WZnf9cOj+iL0KN7g8y9wo9Ud4Uj0yccZeGuS/7rQ=\",\"sentToNetworkCount\":2,\"sentToNetworkMinimum\":2},{\"blockchainTitle\":\"T15\",\"timestamp\":1535940280090,\"hash\":\"f275d42155577c45fba811cb48d63d7273db454ac183b676690b82e5013cce83\",\"sendersPublicKey\":null,\"recipientsPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==\",\"amountToRecipient\":2.5,\"itemIdToSender\":null,\"inputs\":null,\"outputs\":[{\"id\":\"19670449389bc35dc2f1df2f7368692567ef423db3d81fbb825d3a2ab0cc9578\",\"recipientPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==\",\"amount\":2.5,\"parentTransactionId\":\"f275d42155577c45fba811cb48d63d7273db454ac183b676690b82e5013cce83\"}],\"sendersSignature\":\"MEUCIQC+d9jOGm3s52SAlSB35+1QfnniOPrr7qynto+cWxu19gIgbBjb98yYixPpWN3Za4fYTgn/9XlRmWyOqvnmll+Jqsk=\",\"sentToNetworkCount\":0,\"sentToNetworkMinimum\":2}],\"sChangeSignature\":null,\"mapVerifierPubKeyToSigOfHash\":{},\"oPreviousBlock\":{\"iIndex\":5,\"lTimeStamp\":1535828012692,\"sPreviousHash\":\"000000593c8904740e4efc07da7c76e1bc4c06a7b2ef7275b12ec006fc016fac\",\"sMerkleRoot\":\"a8c30a70278b13439da5477d56e4a53c185961535410b14423abe9488c5b52ba\",\"iDifficulty\":5,\"fMinersRewardPercent\":0.25,\"sMinerPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==\",\"sMinerUsername\":null,\"sBlocksize\":1,\"fPriceIncreaseAfterTx\":0.25,\"fCoinsToNewMiner\":10.0,\"bOneInstancePerNode\":false,\"sNonce\":\"2106542127\",\"sHash\":\"00000efc6052bd2c12371dbb4c920ac3aa901842f98302f9ab65c4956a564b4c\",\"lstTransactions\":[{\"blockchainTitle\":\"T15\",\"timestamp\":1535828010005,\"hash\":\"907ae43956968d1d93279abec4ae22104cc6140b50fa595006d11309b39db4dc\",\"sendersPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==\",\"recipientsPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==\",\"amountToRecipient\":5.0,\"itemIdToSender\":\"2e2e1576-3631-4a31-8841-3a1534358cc1\",\"inputs\":[{\"transactionOutputId\":\"9892becb4473a6c45e1ad574bb6d0a2103c0f7581bae93543a85c90054e3c37f\",\"UTXO\":{\"id\":\"9892becb4473a6c45e1ad574bb6d0a2103c0f7581bae93543a85c90054e3c37f\",\"recipientPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==\",\"amount\":4.5,\"parentTransactionId\":\"49126289dce3da62c3a6b9a0249db323633e16be56f1f83dc5f3dd55b0df587a\"}},{\"transactionOutputId\":\"ac841727ee40d033b49f3eb516de2346fbd90d6379d5721ad47d93b74e45db51\",\"UTXO\":{\"id\":\"ac841727ee40d033b49f3eb516de2346fbd90d6379d5721ad47d93b74e45db51\",\"recipientPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==\",\"amount\":0.75,\"parentTransactionId\":\"6cf9eb0913535ded41bffaaa9b6a7794db958fc0f7a449b33223507ebe445c06\"}}],\"outputs\":[{\"id\":\"b4873d423a809f8fb441d3241be7f43d242dca3906c1aa6163aab72499fe1612\",\"recipientPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==\",\"amount\":0.25,\"parentTransactionId\":\"907ae43956968d1d93279abec4ae22104cc6140b50fa595006d11309b39db4dc\"},{\"id\":\"dfaddf8a09a80aa821e875063d16acee34a1cb177505ee85447f16cb748597e3\",\"recipientPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==\",\"amount\":5.0,\"parentTransactionId\":\"907ae43956968d1d93279abec4ae22104cc6140b50fa595006d11309b39db4dc\"}],\"sendersSignature\":\"MEUCIF/QYPTxC8A2J3XebJrqy43WD6NM4wHlfII4HRF3cPRIAiEAkt8CpubIQdVwE9F8GpHCsaRLRDzc+L4Q/Q1KqC8jaVE=\",\"sentToNetworkCount\":2,\"sentToNetworkMinimum\":2},{\"blockchainTitle\":\"T15\",\"timestamp\":1535828012692,\"hash\":\"59c8978193bfc162be98f73c21d9107a63a90afafec8081e6296a73b5b7a1fc6\",\"sendersPublicKey\":null,\"recipientsPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==\",\"amountToRecipient\":1.25,\"itemIdToSender\":null,\"inputs\":null,\"outputs\":[{\"id\":\"f8cee5a35a124b97c596d54b0a2e65f557d8866393259b640688b8381182a284\",\"recipientPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==\",\"amount\":1.25,\"parentTransactionId\":\"59c8978193bfc162be98f73c21d9107a63a90afafec8081e6296a73b5b7a1fc6\"}],\"sendersSignature\":\"MEYCIQD/+w5G5kcnDhvEzPgZmnQwUpfr1C4yA5y+yDv4tGqcLAIhAKI0fkkEE78R/JLHaEWxq//xAjvN408UR0DCJGl4wT5D\",\"sentToNetworkCount\":0,\"sentToNetworkMinimum\":2}],\"sChangeSignature\":null,\"mapVerifierPubKeyToSigOfHash\":{},\"oPreviousBlock\":{\"iIndex\":4,\"lTimeStamp\":1535827667928,\"sPreviousHash\":\"00000b918b506f23c98f77e365ae70c59df8908c51db3a8f12f7ce74f17ad72e\",\"sMerkleRoot\":\"14de759593cd634ee5db6512274e861460f637d09efb9a80fd65a8c1a0093bae\",\"iDifficulty\":5,\"fMinersRewardPercent\":0.25,\"sMinerPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==\",\"sMinerUsername\":null,\"sBlocksize\":1,\"fPriceIncreaseAfterTx\":0.25,\"fCoinsToNewMiner\":10.0,\"bOneInstancePerNode\":false,\"sNonce\":\"58881308\",\"sHash\":\"000000593c8904740e4efc07da7c76e1bc4c06a7b2ef7275b12ec006fc016fac\",\"lstTransactions\":[{\"blockchainTitle\":\"T15\",\"timestamp\":1535827663096,\"hash\":\"49126289dce3da62c3a6b9a0249db323633e16be56f1f83dc5f3dd55b0df587a\",\"sendersPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==\",\"recipientsPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==\",\"amountToRecipient\":4.0,\"itemIdToSender\":null,\"inputs\":[{\"transactionOutputId\":\"cf6e0e22d9865e0ab548bc7937844664adaac906816a1999a41904f039cf725f\",\"UTXO\":{\"id\":\"cf6e0e22d9865e0ab548bc7937844664adaac906816a1999a41904f039cf725f\",\"recipientPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==\",\"amount\":0.75,\"parentTransactionId\":\"2f89ee92e75b32d7e9549d408f1a5d6195a9d850da6bc0ca6583c1983d741d4a\"}},{\"transactionOutputId\":\"085ced15ff957aae13dde519e6ac20af9480dec79f513e555b0dc82ffbe548ed\",\"UTXO\":{\"id\":\"085ced15ff957aae13dde519e6ac20af9480dec79f513e555b0dc82ffbe548ed\",\"recipientPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==\",\"amount\":7.75,\"parentTransactionId\":\"ff121aa331cba6ee2136ce744750ca9edb3086839578ec4c546a428707613bba\"}}],\"outputs\":[{\"id\":\"9892becb4473a6c45e1ad574bb6d0a2103c0f7581bae93543a85c90054e3c37f\",\"recipientPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==\",\"amount\":4.5,\"parentTransactionId\":\"49126289dce3da62c3a6b9a0249db323633e16be56f1f83dc5f3dd55b0df587a\"},{\"id\":\"59c227cafa11ce1f02f74e6e617dfb74d2725322e33694bea404b54839844ffe\",\"recipientPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==\",\"amount\":4.0,\"parentTransactionId\":\"49126289dce3da62c3a6b9a0249db323633e16be56f1f83dc5f3dd55b0df587a\"}],\"sendersSignature\":\"MEQCIH8pYMwtUteZuGbki3MQYnflWeEZbNqw51Upef/5R6QbAiBz1nSejVN0J9DrvW64DtU92IVqXV3/kZxn4mfKgGxN6A==\",\"sentToNetworkCount\":2,\"sentToNetworkMinimum\":2},{\"blockchainTitle\":\"T15\",\"timestamp\":1535827667928,\"hash\":\"679a50295d4577e3810b4354ffbddd591aa6ebcac142b20d25bb4cf85ef63b80\",\"sendersPublicKey\":null,\"recipientsPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==\",\"amountToRecipient\":1.0,\"itemIdToSender\":null,\"inputs\":null,\"outputs\":[{\"id\":\"070107201eaf9510f530d7565537c7bc54ddd9febbff21c558c4a169aae09c56\",\"recipientPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==\",\"amount\":1.0,\"parentTransactionId\":\"679a50295d4577e3810b4354ffbddd591aa6ebcac142b20d25bb4cf85ef63b80\"}],\"sendersSignature\":\"MEYCIQD2/J84dj53I1q7SyKfLmm33A4Xmo7ksNdwfQeAJ5D//wIhAIBDn4rpj7AO+QFwRPC+WFa1hBMJkAhBXc6cd71ouDNl\",\"sentToNetworkCount\":0,\"sentToNetworkMinimum\":2}],\"sChangeSignature\":null,\"mapVerifierPubKeyToSigOfHash\":{},\"oPreviousBlock\":{\"iIndex\":3,\"lTimeStamp\":1535827487470,\"sPreviousHash\":\"0000064f7cad48a53c470a583cf14592112765c42cb6459f1c3093f9c681a62c\",\"sMerkleRoot\":\"f7d7ef0396f8e5ce001ecd9857ec31959614a24cb8e16c4ac016e39896ec0bc1\",\"iDifficulty\":5,\"fMinersRewardPercent\":0.25,\"sMinerPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==\",\"sMinerUsername\":\"ox\",\"sBlocksize\":1,\"fPriceIncreaseAfterTx\":0.25,\"fCoinsToNewMiner\":10.0,\"bOneInstancePerNode\":false,\"sNonce\":\"826575226\",\"sHash\":\"00000b918b506f23c98f77e365ae70c59df8908c51db3a8f12f7ce74f17ad72e\",\"lstTransactions\":[{\"blockchainTitle\":\"T15\",\"timestamp\":1535827486921,\"hash\":\"ff121aa331cba6ee2136ce744750ca9edb3086839578ec4c546a428707613bba\",\"sendersPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==\",\"recipientsPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==\",\"amountToRecipient\":3.0,\"itemIdToSender\":null,\"inputs\":[{\"transactionOutputId\":\"310886c7795dde32784b93776a9e4eeaca714032a7064287e84cf3b637a2750f\",\"UTXO\":{\"id\":\"310886c7795dde32784b93776a9e4eeaca714032a7064287e84cf3b637a2750f\",\"recipientPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==\",\"amount\":2.75,\"parentTransactionId\":\"052842a709be0214917038dfac0b94daaba36e202768b30d09ce0a2a1b0396f2\"}},{\"transactionOutputId\":\"21812f47f7c8c822a4e5acd9b532bf095329724c213708bd8ae113ed876a26a8\",\"UTXO\":{\"id\":\"21812f47f7c8c822a4e5acd9b532bf095329724c213708bd8ae113ed876a26a8\",\"recipientPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==\",\"amount\":8.0,\"parentTransactionId\":\"be806c663394af592dbcd9bfa08854b6c29ad4e0b183c6de24b3b1ef1529ee54\"}}],\"outputs\":[{\"id\":\"085ced15ff957aae13dde519e6ac20af9480dec79f513e555b0dc82ffbe548ed\",\"recipientPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==\",\"amount\":7.75,\"parentTransactionId\":\"ff121aa331cba6ee2136ce744750ca9edb3086839578ec4c546a428707613bba\"},{\"id\":\"742b8ab1d0f855dd794959ad68f189e2031427fd5709f46587bbe4b46257c26f\",\"recipientPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==\",\"amount\":3.0,\"parentTransactionId\":\"ff121aa331cba6ee2136ce744750ca9edb3086839578ec4c546a428707613bba\"}],\"sendersSignature\":\"MEUCIQD0Kfbh+B5xcGc04wwM26K3wEI3Gnfqs4lYzpPev8IiKwIgaCBKkRBkgm8oKt8m1A6aX9jdi90HRKvoUbxVSJSgv6s=\",\"sentToNetworkCount\":1,\"sentToNetworkMinimum\":2},{\"blockchainTitle\":\"T15\",\"timestamp\":1535827487471,\"hash\":\"2f89ee92e75b32d7e9549d408f1a5d6195a9d850da6bc0ca6583c1983d741d4a\",\"sendersPublicKey\":null,\"recipientsPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==\",\"amountToRecipient\":0.75,\"itemIdToSender\":null,\"inputs\":null,\"outputs\":[{\"id\":\"cf6e0e22d9865e0ab548bc7937844664adaac906816a1999a41904f039cf725f\",\"recipientPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==\",\"amount\":0.75,\"parentTransactionId\":\"2f89ee92e75b32d7e9549d408f1a5d6195a9d850da6bc0ca6583c1983d741d4a\"}],\"sendersSignature\":\"MEUCIAFoiy1jvTssLydC5WWxL2saOwi20joFfXMVMckXT4WDAiEAtwHH+7T6vFis49pxSexqQj2cKJ9mOeLJ10LdI3LykV8=\",\"sentToNetworkCount\":0,\"sentToNetworkMinimum\":2}],\"sChangeSignature\":null,\"mapVerifierPubKeyToSigOfHash\":{},\"oPreviousBlock\":{\"iIndex\":2,\"lTimeStamp\":1535826759781,\"sPreviousHash\":\"00000a25885631a989d0324644ca2c0baac977a7b94facece770d8284771027d\",\"sMerkleRoot\":\"e67f15f1b19dd292fa26abebd2ef56f008819a8a0fd2e0c62c06364d6cb492be\",\"iDifficulty\":5,\"fMinersRewardPercent\":0.25,\"sMinerPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==\",\"sMinerUsername\":\"ox\",\"sBlocksize\":1,\"fPriceIncreaseAfterTx\":0.25,\"fCoinsToNewMiner\":10.0,\"bOneInstancePerNode\":false,\"sNonce\":\"1773282454\",\"sHash\":\"0000064f7cad48a53c470a583cf14592112765c42cb6459f1c3093f9c681a62c\",\"lstTransactions\":[{\"blockchainTitle\":\"T15\",\"timestamp\":1535826759043,\"hash\":\"be806c663394af592dbcd9bfa08854b6c29ad4e0b183c6de24b3b1ef1529ee54\",\"sendersPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==\",\"recipientsPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==\",\"amountToRecipient\":3.0,\"itemIdToSender\":null,\"inputs\":[{\"transactionOutputId\":\"3b0ece594508f9b17d5202d1de6be0c6f6aad4253a1c221236813737de04efcc\",\"UTXO\":{\"id\":\"3b0ece594508f9b17d5202d1de6be0c6f6aad4253a1c221236813737de04efcc\",\"recipientPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==\",\"amount\":11.0,\"parentTransactionId\":\"5601caa95f787d90c550289b221619964e6878bbde44da6dce618c5ce54a832d\"}}],\"outputs\":[{\"id\":\"21812f47f7c8c822a4e5acd9b532bf095329724c213708bd8ae113ed876a26a8\",\"recipientPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==\",\"amount\":8.0,\"parentTransactionId\":\"be806c663394af592dbcd9bfa08854b6c29ad4e0b183c6de24b3b1ef1529ee54\"},{\"id\":\"5157a4ecf1d28c5fa99e684e29cf77989ab548e463ab62bf5a27c1af33c25d5c\",\"recipientPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==\",\"amount\":3.0,\"parentTransactionId\":\"be806c663394af592dbcd9bfa08854b6c29ad4e0b183c6de24b3b1ef1529ee54\"}],\"sendersSignature\":\"MEQCIGJGtNAWoCexgeM5jtd05TFFsQgdhv27rsFYQBSOxsN8AiB0iCEsBjjJEqRwsMURAKcHRvcSHLFBkMOShdRSL5O0dw==\",\"sentToNetworkCount\":1,\"sentToNetworkMinimum\":2},{\"blockchainTitle\":\"T15\",\"timestamp\":1535826759781,\"hash\":\"6cf9eb0913535ded41bffaaa9b6a7794db958fc0f7a449b33223507ebe445c06\",\"sendersPublicKey\":null,\"recipientsPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==\",\"amountToRecipient\":0.75,\"itemIdToSender\":null,\"inputs\":null,\"outputs\":[{\"id\":\"ac841727ee40d033b49f3eb516de2346fbd90d6379d5721ad47d93b74e45db51\",\"recipientPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==\",\"amount\":0.75,\"parentTransactionId\":\"6cf9eb0913535ded41bffaaa9b6a7794db958fc0f7a449b33223507ebe445c06\"}],\"sendersSignature\":\"MEQCICoYlyh8Cqu0HA+V2OsF/8KuGGhDZSXuqjdLMgN8UmvQAiAe97exotPH3D12aU++0AD78PNZn0ZYtk6I4DNRwsPjxA==\",\"sentToNetworkCount\":0,\"sentToNetworkMinimum\":2}],\"sChangeSignature\":null,\"mapVerifierPubKeyToSigOfHash\":{},\"oPreviousBlock\":{\"iIndex\":1,\"lTimeStamp\":1535825668137,\"sPreviousHash\":\"c9759261b63ac67abdea8ce02ba647055322bad8ec0d21f07bb78dba39e0fbd5\",\"sMerkleRoot\":\"933eab3fc901473cbc7bfe35c45c9d14a6acd7fb06e1f294081efd8f29e61820\",\"iDifficulty\":5,\"fMinersRewardPercent\":0.25,\"sMinerPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==\",\"sMinerUsername\":\"ox\",\"sBlocksize\":1,\"fPriceIncreaseAfterTx\":0.25,\"fCoinsToNewMiner\":10.0,\"bOneInstancePerNode\":false,\"sNonce\":\"1357091893\",\"sHash\":\"00000a25885631a989d0324644ca2c0baac977a7b94facece770d8284771027d\",\"lstTransactions\":[{\"blockchainTitle\":\"T15\",\"timestamp\":1535825665122,\"hash\":\"5601caa95f787d90c550289b221619964e6878bbde44da6dce618c5ce54a832d\",\"sendersPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==\",\"recipientsPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==\",\"amountToRecipient\":11.0,\"itemIdToSender\":null,\"inputs\":[{\"transactionOutputId\":\"c5bd88793c1bf352bdbe6559f4327b3d13680395c6a63564f28abdb65483da89\",\"UTXO\":{\"id\":\"c5bd88793c1bf352bdbe6559f4327b3d13680395c6a63564f28abdb65483da89\",\"recipientPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==\",\"amount\":30.0,\"parentTransactionId\":\"99e99b31e35cb1add09c2693e29dedcaa8ffc232ac59a439fc506dacb4f22b13\"}}],\"outputs\":[{\"id\":\"0364a1df72430211eefe8361ef95617b68181944a680e11ed20a13b00e93321e\",\"recipientPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==\",\"amount\":19.0,\"parentTransactionId\":\"5601caa95f787d90c550289b221619964e6878bbde44da6dce618c5ce54a832d\"},{\"id\":\"3b0ece594508f9b17d5202d1de6be0c6f6aad4253a1c221236813737de04efcc\",\"recipientPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==\",\"amount\":11.0,\"parentTransactionId\":\"5601caa95f787d90c550289b221619964e6878bbde44da6dce618c5ce54a832d\"}],\"sendersSignature\":\"MEUCIEFO6n4bvP0/0KlF2usYk799D6EfbXz38azWRjxl9bwHAiEApwkTI/qqB1Gegfq/VJbAmF+s8geEe7P0huHegQUNiXc=\",\"sentToNetworkCount\":2,\"sentToNetworkMinimum\":2},{\"blockchainTitle\":\"T15\",\"timestamp\":1535825668137,\"hash\":\"052842a709be0214917038dfac0b94daaba36e202768b30d09ce0a2a1b0396f2\",\"sendersPublicKey\":null,\"recipientsPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==\",\"amountToRecipient\":2.75,\"itemIdToSender\":null,\"inputs\":null,\"outputs\":[{\"id\":\"310886c7795dde32784b93776a9e4eeaca714032a7064287e84cf3b637a2750f\",\"recipientPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==\",\"amount\":2.75,\"parentTransactionId\":\"052842a709be0214917038dfac0b94daaba36e202768b30d09ce0a2a1b0396f2\"}],\"sendersSignature\":\"MEQCIHHqH7GQIIbLwWKN7NoQbF/cOPzC9vaAlheoJujnvLtPAiAn9EMBJGAp+EsQTDbAF9yuFvq+S9rEUowMYaVz1vGGgg==\",\"sentToNetworkCount\":0,\"sentToNetworkMinimum\":2}],\"sChangeSignature\":null,\"mapVerifierPubKeyToSigOfHash\":{},\"oPreviousBlock\":{\"iIndex\":0,\"lTimeStamp\":1535825467707,\"sPreviousHash\":\"root\",\"sMerkleRoot\":\"99e99b31e35cb1add09c2693e29dedcaa8ffc232ac59a439fc506dacb4f22b13\",\"iDifficulty\":5,\"fMinersRewardPercent\":0.25,\"sMinerPublicKey\":null,\"sMinerUsername\":null,\"sBlocksize\":1,\"fPriceIncreaseAfterTx\":0.25,\"fCoinsToNewMiner\":10.0,\"bOneInstancePerNode\":false,\"sNonce\":\"12345\",\"sHash\":\"c9759261b63ac67abdea8ce02ba647055322bad8ec0d21f07bb78dba39e0fbd5\",\"lstTransactions\":[{\"blockchainTitle\":\"T15\",\"timestamp\":1535825467709,\"hash\":\"99e99b31e35cb1add09c2693e29dedcaa8ffc232ac59a439fc506dacb4f22b13\",\"sendersPublicKey\":null,\"recipientsPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==\",\"amountToRecipient\":30.0,\"itemIdToSender\":\"2e2e1576-3631-4a31-8841-3a1534358cc1\",\"inputs\":null,\"outputs\":[{\"id\":\"c5bd88793c1bf352bdbe6559f4327b3d13680395c6a63564f28abdb65483da89\",\"recipientPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==\",\"amount\":30.0,\"parentTransactionId\":\"99e99b31e35cb1add09c2693e29dedcaa8ffc232ac59a439fc506dacb4f22b13\"}],\"sendersSignature\":\"MEQCIG805K5J/R70EWOvHSi6RAk3kA35/i7ojtnHm4rBpyMfAiB/4cRKRPIbHighG3NdCtotakdAFfRG+Fr6YG4clPa2Cg==\",\"sentToNetworkCount\":0,\"sentToNetworkMinimum\":2}],\"sChangeSignature\":null,\"mapVerifierPubKeyToSigOfHash\":{},\"oPreviousBlock\":null,\"iSentToNetworkCount\":0,\"iSentToNetworkMinimum\":2},\"iSentToNetworkCount\":2,\"iSentToNetworkMinimum\":2},\"iSentToNetworkCount\":2,\"iSentToNetworkMinimum\":2},\"iSentToNetworkCount\":2,\"iSentToNetworkMinimum\":2},\"iSentToNetworkCount\":2,\"iSentToNetworkMinimum\":2},\"iSentToNetworkCount\":2,\"iSentToNetworkMinimum\":2},\"iSentToNetworkCount\":2,\"iSentToNetworkMinimum\":2},\"iSentToNetworkCount\":2,\"iSentToNetworkMinimum\":2},\"mapUTXOs\":{\"98ea76a412b0e0bfa20ed589a1cbddfa608c92390293db1aa2206930224c4fd2\":{\"id\":\"98ea76a412b0e0bfa20ed589a1cbddfa608c92390293db1aa2206930224c4fd2\",\"recipientPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==\",\"amount\":0.25,\"parentTransactionId\":\"5919e189b79a9dcb8e0a9f8b7e8528f6d07799f41765c4f00c13fae13a965c5a\"},\"070107201eaf9510f530d7565537c7bc54ddd9febbff21c558c4a169aae09c56\":{\"id\":\"070107201eaf9510f530d7565537c7bc54ddd9febbff21c558c4a169aae09c56\",\"recipientPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==\",\"amount\":1.0,\"parentTransactionId\":\"679a50295d4577e3810b4354ffbddd591aa6ebcac142b20d25bb4cf85ef63b80\"},\"089d165fdb998ce042b97164cbdc29ca5d1e5624059810d9c63d39eae7332ae7\":{\"id\":\"089d165fdb998ce042b97164cbdc29ca5d1e5624059810d9c63d39eae7332ae7\",\"recipientPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==\",\"amount\":6.5,\"parentTransactionId\":\"da20e7417aada2c1981bd7e3dc66fe189a57245e33de4b623f316803b7958282\"},\"e0b54844a948af1dba9e184d668290e164f4adafe13fbb6c9dc7dacf7e6a7907\":{\"id\":\"e0b54844a948af1dba9e184d668290e164f4adafe13fbb6c9dc7dacf7e6a7907\",\"recipientPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==\",\"amount\":6.25,\"parentTransactionId\":\"da20e7417aada2c1981bd7e3dc66fe189a57245e33de4b623f316803b7958282\"},\"742b8ab1d0f855dd794959ad68f189e2031427fd5709f46587bbe4b46257c26f\":{\"id\":\"742b8ab1d0f855dd794959ad68f189e2031427fd5709f46587bbe4b46257c26f\",\"recipientPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==\",\"amount\":3.0,\"parentTransactionId\":\"ff121aa331cba6ee2136ce744750ca9edb3086839578ec4c546a428707613bba\"},\"576f7c0688540fbebaf3216b0c95569b1c2645c5e385a99e7bbc6970f4d5f7b2\":{\"id\":\"576f7c0688540fbebaf3216b0c95569b1c2645c5e385a99e7bbc6970f4d5f7b2\",\"recipientPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/PEPQP6A71i/k/Vmf/iXE+wqmNIDlaTQ7WpHF3JHOuBesPLOrABdP21FyZs9CtFni1YfMvESk5tlcfLSleovzg==\",\"amount\":1.5625,\"parentTransactionId\":\"ff6f4722512ecad152b052dba54ac1e79bdd0e0c9379b669d85737e59b308287\"},\"5157a4ecf1d28c5fa99e684e29cf77989ab548e463ab62bf5a27c1af33c25d5c\":{\"id\":\"5157a4ecf1d28c5fa99e684e29cf77989ab548e463ab62bf5a27c1af33c25d5c\",\"recipientPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==\",\"amount\":3.0,\"parentTransactionId\":\"be806c663394af592dbcd9bfa08854b6c29ad4e0b183c6de24b3b1ef1529ee54\"},\"0364a1df72430211eefe8361ef95617b68181944a680e11ed20a13b00e93321e\":{\"id\":\"0364a1df72430211eefe8361ef95617b68181944a680e11ed20a13b00e93321e\",\"recipientPublicKey\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==\",\"amount\":19.0,\"parentTransactionId\":\"5601caa95f787d90c550289b221619964e6878bbde44da6dce618c5ce54a832d\"}},\"mapItemIdToOwnersPubKey\":{\"2e2e1576-3631-4a31-8841-3a1534358cc1\":\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhB2pcqGMjUXgvKPon8VH0XWEMt0TZjeX6fhgXnMT3bTSvlF7PRmVcZZ2AXLA3Q9kQnlsnRNL6843mcSROmjBUQ==\"},\"mapItemIdToItem\":{\"2e2e1576-3631-4a31-8841-3a1534358cc1\":{\"sId\":\"2e2e1576-3631-4a31-8841-3a1534358cc1\",\"sTitle\":\"Viking Bluetooth Gold Disc\",\"sItem\":\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/The_Curmsun_Disc_-_Obverse.png/220px-The_Curmsun_Disc_-_Obverse.png\",\"fPrice\":7.8125}}}"
+}
