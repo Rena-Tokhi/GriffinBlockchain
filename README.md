@@ -20,4 +20,4 @@ The "Griffin Blockchain" is a simulated blockchain network that allows you to ex
 The "Griffin Blockchain" project was initially developed by Grossmont College instructors and made available for students to enhance their understanding of blockchain technology. It serves as an educational tool for students to integrate their basic blockchain code into an existing network. I appreciate the instructors for providing this valuable resource.
 
 
-![plot](./Users/rinatokhi/Downloads/Blockchain.jpg) 
+![Blockchain_workflow](https://github.com/Rena-Tokhi/GriffinBlockchain/assets/73399769/c883af71-abc4-4ade-aaf3-a917a1a1f75f)
